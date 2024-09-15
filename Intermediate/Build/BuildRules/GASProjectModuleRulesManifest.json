@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\GASProject\\Source\\GASProject\\GASProject.Build.cs",
+		"D:\\Unreal Projects\\GASProject\\Source\\GASProject.Target.cs",
+		"D:\\Unreal Projects\\GASProject\\Source\\GASProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

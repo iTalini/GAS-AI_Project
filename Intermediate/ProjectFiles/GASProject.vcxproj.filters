@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GASProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GASProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GASProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\EaseCurves">
+      <UniqueIdentifier>{D88E64E6-1312-3E41-962E-E2A23A9F73A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\EaseCurves\Ease In Out.json">
+      <Filter>Config\EaseCurves</Filter>
+    </None>
+    <None Include="..\..\Config\EaseCurves\Ease In.json">
+      <Filter>Config\EaseCurves</Filter>
+    </None>
+    <None Include="..\..\Config\EaseCurves\Ease Out.json">
+      <Filter>Config\EaseCurves</Filter>
+    </None>
+    <Filter Include="Source\GASProject">
+      <UniqueIdentifier>{6831C5E6-81DD-3458-8553-F3E864333510}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GASProject\GASProject.Build.cs">
+      <Filter>Source\GASProject</Filter>
+    </None>
+    <Filter Include="Source\GASProject\Private">
+      <UniqueIdentifier>{361EE660-84D9-3792-B2D9-9EA6E02EE376}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\GASProject.cpp">
+      <Filter>Source\GASProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\AI">
+      <UniqueIdentifier>{3B9C95DC-ACF1-3733-8826-CA4A24EE7C85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\AI\GAS_PatrolRoute.cpp">
+      <Filter>Source\GASProject\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\Character">
+      <UniqueIdentifier>{23EE4494-674A-3438-A44D-586335A91C41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\Character\GASProjectCharacter.cpp">
+      <Filter>Source\GASProject\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Character\GAS_AICharacter.cpp">
+      <Filter>Source\GASProject\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Character\GAS_AICharacter_Wizard.cpp">
+      <Filter>Source\GASProject\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Character\GAS_PlayerCharacter.cpp">
+      <Filter>Source\GASProject\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\Controllers">
+      <UniqueIdentifier>{A93DD829-58B8-393A-B39A-112B145E5571}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\Controllers\GAS_BasicAIController.cpp">
+      <Filter>Source\GASProject\Private\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Controllers\GAS_BasicEnemyAIController.cpp">
+      <Filter>Source\GASProject\Private\Controllers</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\GAS">
+      <UniqueIdentifier>{45A7058F-B80D-379B-B95A-FB10FED7B9C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\GAS_AttributeSet.cpp">
+      <Filter>Source\GASProject\Private\GAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\GAS_GABaseAbility.cpp">
+      <Filter>Source\GASProject\Private\GAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\GAS_GABaseAttack.cpp">
+      <Filter>Source\GASProject\Private\GAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\GAS_GABaseRangedAttack.cpp">
+      <Filter>Source\GASProject\Private\GAS</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\GAS\Tasks">
+      <UniqueIdentifier>{9FC0FE10-2513-3562-87A3-3FBD8E586DF6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\Tasks\AbilityTask_PlayAnimMontageAndWait.cpp">
+      <Filter>Source\GASProject\Private\GAS\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\GAS\Tasks\AbilityTask_SuccessFailEvent.cpp">
+      <Filter>Source\GASProject\Private\GAS\Tasks</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\HUD">
+      <UniqueIdentifier>{435104E0-5022-3E86-B828-85F969A316FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\HUD\BasePlayerHUD.cpp">
+      <Filter>Source\GASProject\Private\HUD</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\Interactable">
+      <UniqueIdentifier>{EB069037-7A49-3C43-A29E-602D866C4118}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\Interactable\InteractableBase.cpp">
+      <Filter>Source\GASProject\Private\Interactable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Interactable\PickupBase.cpp">
+      <Filter>Source\GASProject\Private\Interactable</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\Mode">
+      <UniqueIdentifier>{D4A36920-1CEC-3C5B-A70E-F8C5CB519E6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\Mode\GASProjectGameMode.cpp">
+      <Filter>Source\GASProject\Private\Mode</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Private\Widgets">
+      <UniqueIdentifier>{98EAE6E2-B0E9-3688-95F6-E6DB16C203ED}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GASProject\Private\Widgets\BaseHUDWidget.cpp">
+      <Filter>Source\GASProject\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASProject\Private\Widgets\BasicProgressBar.cpp">
+      <Filter>Source\GASProject\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Source\GASProject\Public">
+      <UniqueIdentifier>{99E09DDC-F90B-31BD-A6F1-B01290F92CF6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\GASProject.h">
+      <Filter>Source\GASProject\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\AI">
+      <UniqueIdentifier>{815ACEAD-83A9-3AAC-9EFD-8DFA97742660}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\AI\GAS_PatrolRoute.h">
+      <Filter>Source\GASProject\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Character">
+      <UniqueIdentifier>{6135098F-E858-31EC-8037-211AA3A71EB0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Character\GASProjectCharacter.h">
+      <Filter>Source\GASProject\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Character\GAS_AICharacter.h">
+      <Filter>Source\GASProject\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Character\GAS_AICharacter_Wizard.h">
+      <Filter>Source\GASProject\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Character\GAS_PlayerCharacter.h">
+      <Filter>Source\GASProject\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Controllers">
+      <UniqueIdentifier>{51A39922-36FF-3EE6-9279-7D8F9A43EB0F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Controllers\GAS_BasicAIController.h">
+      <Filter>Source\GASProject\Public\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Controllers\GAS_BasicEnemyAIController.h">
+      <Filter>Source\GASProject\Public\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Core">
+      <UniqueIdentifier>{BFF4A3DD-E410-35EE-84A6-4192B26863BA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Core\GAS_Data.h">
+      <Filter>Source\GASProject\Public\Core</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\GAS">
+      <UniqueIdentifier>{562F3228-BBC8-3F8F-8A77-78A2B931E561}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\GAS_AttributeSet.h">
+      <Filter>Source\GASProject\Public\GAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\GAS_GABaseAbility.h">
+      <Filter>Source\GASProject\Public\GAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\GAS_GABaseAttack.h">
+      <Filter>Source\GASProject\Public\GAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\GAS_GABaseRangedAttack.h">
+      <Filter>Source\GASProject\Public\GAS</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\GAS\Tasks">
+      <UniqueIdentifier>{6EB20853-E250-344F-8817-5787A9D0E5A9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\Tasks\AbilityTask_PlayAnimMontageAndWait.h">
+      <Filter>Source\GASProject\Public\GAS\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\GAS\Tasks\AbilityTask_SuccessFailEvent.h">
+      <Filter>Source\GASProject\Public\GAS\Tasks</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\HUD">
+      <UniqueIdentifier>{93722BB6-0EDF-38CB-BA5F-FBFFBB0CD177}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\HUD\BasePlayerHUD.h">
+      <Filter>Source\GASProject\Public\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Interactable">
+      <UniqueIdentifier>{36A877A7-AFE6-399F-9FD7-13FE953C6DCC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Interactable\InteractableBase.h">
+      <Filter>Source\GASProject\Public\Interactable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Interactable\PickupBase.h">
+      <Filter>Source\GASProject\Public\Interactable</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Mode">
+      <UniqueIdentifier>{481A124A-C6C5-35EF-8AF8-2074BF554875}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Mode\GASProjectGameMode.h">
+      <Filter>Source\GASProject\Public\Mode</Filter>
+    </ClInclude>
+    <Filter Include="Source\GASProject\Public\Widgets">
+      <UniqueIdentifier>{A9C40C91-ACFA-3B0A-8765-503BC4C1C3EB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GASProject\Public\Widgets\BaseHUDWidget.h">
+      <Filter>Source\GASProject\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GASProject\Public\Widgets\BasicProgressBar.h">
+      <Filter>Source\GASProject\Public\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
